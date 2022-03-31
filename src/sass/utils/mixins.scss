@@ -1,0 +1,29 @@
+@use "sass:map";
+@import "variables";
+
+@mixin mq($breakpoint) {
+  $bp-value: map.get($grid-breakpoints, $breakpoint);
+
+  @if $bp-value==null {
+    $bp-value: 0;
+    @warn "Breakpoint: #{$breakpoint} is undefined. Check variables.scss and $grid-breakpoints map for correct value";
+  }
+
+  @media only screen and (min-width: $bp-value) {
+    @content;
+  }
+}
+
+@mixin mxq($breakpoint) {
+  $bp-value: map.get($grid-breakpoints, $breakpoint);
+
+  @if $bp-value==null {
+    $bp-value: 0;
+    @warn "Breakpoint: #{$breakpoint} is undefined. Check variables.scss and $grid-breakpoints map for correct value";
+  }
+
+  @media only screen and (max-width: $bp-value) {
+    @content;
+  }
+}
+

@@ -1,0 +1,24 @@
+$font-size-base: 16;
+
+
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        lgg: 1024px,
+        xl: 1200px,
+        xxl: 1400px
+);
+
+  $color-primary: #313131;
+  $color-primary-shadow: rgba(7, 172, 230, 0.16);
+  $color-redish: #fb3b64;
+  $color-green: #55dfb4;
+  $color-black: #000000;
+  $color-white: #ffffff;
+  $color-grey: #a5a5a5;
+  $color-light-grey: #f7f7f7;
+  $button-radius: 10px;
+

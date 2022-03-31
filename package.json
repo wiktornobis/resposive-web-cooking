@@ -1,0 +1,23 @@
+{
+  "name": "responisve-page-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiktornobis/Responisve-page-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wiktornobis/Responisve-page-/issues"
+  },
+  "homepage": "https://github.com/wiktornobis/Responisve-page-#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
