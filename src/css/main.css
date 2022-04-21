@@ -414,4 +414,76 @@ template {
   height: 8.125rem;
   border-radius: 50%;
 }
+
+* {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.footer_box {
+  background-color: #2a2828;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.75rem;
+  color: #ffffff;
+  padding-left: 2.5rem;
+  height: 18.75rem;
+}
+
+.text-box {
+  max-width: 300px;
+  padding-right: 6.25rem;
+}
+
+.h3_footer {
+  font-size: 1.5rem;
+}
+
+.li_text_footer {
+  margin-bottom: 0.8125rem;
+}
+
+.icon {
+  font-size: 2.1875rem;
+  cursor: pointer;
+}
+
+.fa-twitter-square {
+  margin: 1.5625rem 1.875rem;
+}
+
+.input_footer {
+  height: 2rem;
+  font-size: 0.875rem;
+  width: 12.5rem;
+}
+
+.footer_box-text {
+  padding-right: 2.5rem;
+}
+
+.button_footer {
+  height: 2.1875rem;
+  width: 5rem;
+  background-color: red;
+  color: white;
+  font-size: 0.875rem;
+  border: none;
+  cursor: pointer;
+}
+
+.copyright {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  color: #701b8f;
+  padding: 0.0625rem;
+}
+
+.page_name {
+  color: #701b8f;
+  margin-left: 0.625rem;
+}
 /*# sourceMappingURL=main.css.map */

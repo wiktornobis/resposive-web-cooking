@@ -1,0 +1,65 @@
+@import "variables";
+* {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.footer_box{
+  background-color: #2a2828;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: toRem(60);
+  color: $color-white;
+  padding-left: toRem(40);
+  height: toRem(300);
+
+}
+.text-box{
+  max-width: 300px;
+  padding-right: toRem(100);
+}
+.h3_footer{
+  font-size: toRem(24);
+}
+
+.li_text_footer{
+  margin-bottom: toRem(13);
+}
+.icon{
+  font-size: toRem(35);
+  cursor: pointer;
+}
+.fa-twitter-square{
+  margin: toRem(25) toRem(30);
+}
+
+.input_footer{
+  height: toRem(32);
+  font-size: toRem(14);
+  width: toRem(200);
+}
+.footer_box-text{
+  padding-right: toRem(40);
+}
+.button_footer{
+  height: toRem(35);
+  width: toRem(80);
+  background-color: red;
+  color: white;
+  font-size: toRem(14);
+  border: none;
+  cursor: pointer;
+}
+.copyright{
+  font-size: toRem(16);
+  display: flex;
+  justify-content: center;
+  color: $color-nav2;
+  padding: toRem(1);
+}
+.page_name{
+  color: $color-nav2;
+  margin-left: toRem(10);
+}
