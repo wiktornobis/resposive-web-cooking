@@ -343,4 +343,49 @@ template {
   list-style: none;
   font-family: "Open Sans", sans-serif;
 }
+
+.container__background {
+  height: 37.5rem;
+  width: 100vw;
+  margin: 0 auto;
+  background-image: url("/src/images/picture-header1.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.container__header {
+  display: flex;
+  justify-content: center;
+}
+.container__header--nav {
+  margin-top: 3.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.125rem;
+  gap: 30px;
+}
+
+.nav--link {
+  color: #ffffff;
+}
+.nav--link:nth-child(1) {
+  background-color: #8b3ba9;
+  border-radius: 10px;
+  padding: 0.5rem 0.75rem;
+}
+.nav--link:nth-child(1):hover {
+  background-color: #701b8f;
+}
+
+.main__title {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 12.5rem;
+  color: #ffffff;
+  font-size: 5rem;
+}
 /*# sourceMappingURL=main.css.map */
