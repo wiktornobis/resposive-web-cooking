@@ -388,4 +388,30 @@ template {
   color: #ffffff;
   font-size: 5rem;
 }
+
+* {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 9.375rem;
+  margin: 1.875rem 0rem;
+}
+.hero__container {
+  max-width: 15.625rem;
+}
+.hero__container--title {
+  font-size: 24px;
+}
+.hero__container--img {
+  width: 8.125rem;
+  height: 8.125rem;
+  border-radius: 50%;
+}
 /*# sourceMappingURL=main.css.map */
