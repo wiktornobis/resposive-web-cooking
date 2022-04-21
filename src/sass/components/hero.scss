@@ -1,0 +1,31 @@
+@import "variables";
+* {
+  text-decoration: none;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+
+}
+.hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: toRem(150);
+  margin: toRem(30) toRem(0);
+
+  &__container{
+    max-width: toRem(250);
+
+    &--title{
+      font-size: 24px;
+
+    }
+
+    &--img {
+      width: toRem(130);
+      height: toRem(130);
+      border-radius: 50%;
+
+    }
+  }
+}
