@@ -1,7 +1,61 @@
-@use "variables";
+@import "variables";
 * {
   text-decoration: none;
   list-style: none;
   font-family: "Open Sans", sans-serif;
+
 }
 
+.container__background{
+  height: toRem(600);
+  width: 100vw;
+  margin: 0 auto;
+  background-image: url("/src/images/picture-header1.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+
+}
+.container__header{
+  display: flex;
+  justify-content: center;
+
+  &--nav {
+    margin-top: toRem(50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: toRem(18);
+    gap: 30px;
+
+
+  }
+}
+.nav--link{
+  color: $color-white;
+
+  &:nth-child(1){
+    background-color: $color-nav;
+    border-radius: $button-radius;
+    padding: toRem(8) toRem(12);
+    &:hover{
+      background-color: $color-nav2;
+    }
+
+  }
+
+}
+
+.main__title{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: toRem(200);
+  color: $color-white;
+  font-size: toRem(80);
+
+
+
+}
